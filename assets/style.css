@@ -24,6 +24,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 h1 {
@@ -35,21 +36,19 @@ input {
     width: 12%;
     height: 100%;
     text-align: center;
-    color: black;
     background-color: #4A00C4;
     border: none;
     color: white;
     outline: none;
-
 }
 
 form {
     display: flex;
     justify-content: center;
     align-items: center;
-    outline: none;
     gap: 5px;
 }
+
 .category {
     padding-right: 10px;
 }
@@ -72,9 +71,51 @@ button {
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    
 }
 
 button:hover {
     background-color: #7330E1;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+        height: auto;
+    }
+
+    input {
+        width: 20%;
+    }
+
+    button {
+        width: 50%;
+        height: 6.5%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    input {
+        width: 60%;
+    }
+
+    button {
+        width: 70%;
+        height: 8%;
+    }
+
+    form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .category {
+        padding-right: 0;
+        margin-bottom: 5px;
+    }
 }
