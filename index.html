@@ -10,29 +10,6 @@
     <div class="container">
         <h1>Preencha os dados da fórmula</h1>
         <div class="category-container">
-            <!-- <form>
-                <span class="category">CATEGORIA 1: </span>
-                <input type="text" placeholder="ATK" id="atk1">
-                <span>x</span>
-                <input type="text" placeholder="VARIAÇÃO" id="var1Cat1">
-                <span>+</span>
-                <input type="text" placeholder="SKILL" id="skill1">
-                <span>x</span>
-                <input type="text" placeholder="VARIAÇÃO" id="var2Cat1">
-                <span>=</span>
-                <input type="text" placeholder="DANO" disabled="disabled" id="dano1">
-                <input type="text" placeholder="DANO" disabled="disabled" id="dano1">
-                <input type="text" placeholder="DANO" disabled="disabled" id="dano1">
-                <input type="text" placeholder="DANO" disabled="disabled" id="dano1">
-                <input type="text" placeholder="DANO" disabled="disabled" id="dano1">
-                <input type="text" placeholder="DANO" disabled="disabled" id="dano1">
-                <input type="text" placeholder="DANO" disabled="disabled" id="dano1">
-                <input type="text" placeholder="DANO" disabled="disabled" id="dano1">
-                <input type="text" placeholder="DANO" disabled="disabled" id="dano1">
-                <input type="text" placeholder="DANO" disabled="disabled" id="dano1">
-                <input type="text" placeholder="DANO" disabled="disabled" id="dano1">
-                <input type="text" placeholder="DANO" disabled="disabled" id="dano1">
-            </form> -->
             <form>
                 <span class="category">CATEGORIA 1: </span>
                 <input type="text" placeholder="ATK" id="atk1">
@@ -44,6 +21,9 @@
                 <input type="text" placeholder="VARIAÇÃO" id="var2Cat1">
                 <span>=</span>
                 <input type="text" placeholder="DANO" disabled="disabled" id="dano1">
+                <span id="min1" class="min">min1</span>
+                <span>~</span>
+                <span id="max1" class="max">max1</span>
             </form>
             <form>
                 <span class="category">CATEGORIA 2: </span>
@@ -56,6 +36,9 @@
                 <input type="text" placeholder="VARIAÇÃO" id="var2Cat2">
                 <span>=</span>
                 <input type="text" placeholder="DANO" disabled="disabled" id="dano2">
+                <span id="min2" class="min">min2</span>
+                <span>~</span>
+                <span id="max2" class="max">max2</span>
             </form>
             <form>
                 <span class="category">CATEGORIA 3: </span>
@@ -68,6 +51,9 @@
                 <input type="text" placeholder="VARIAÇÃO" id="var2Cat3">
                 <span>=</span>
                 <input type="text" placeholder="DANO" disabled="disabled" id="dano3">
+                <span id="min3" class="min">min3</span>
+                <span>~</span>
+                <span id="max3" class="max">max3</span>
             </form>
             <form>
                 <span class="category">CATEGORIA 4: </span>
@@ -80,6 +66,9 @@
                 <input type="text" placeholder="VARIAÇÃO" id="var2Cat4">
                 <span>=</span>
                 <input type="text" placeholder="DANO" disabled="disabled" id="dano4">
+                <span id="min4" class="min">min4</span>
+                <span>~</span>
+                <span id="max4" class="max">max4</span>
             </form>
             <form>
                 <span class="category">CATEGORIA 5: </span>
@@ -92,6 +81,9 @@
                 <input type="text" placeholder="VARIAÇÃO" id="var2Cat5">
                 <span>=</span>
                 <input type="text" placeholder="DANO" disabled="disabled" id="dano5">
+                <span id="min5" class="min">min5</span>
+                <span>~</span>
+                <span id="max5" class="max">max5</span>
             </form>
             <button onclick="calcular()">Calcular</button>
         </div>
