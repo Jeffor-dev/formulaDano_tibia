@@ -29,7 +29,7 @@ body {
 
 h1 {
     color: #DCDCDC;
-    margin: 280px;
+    margin: 400px;
 }
 
 input {
@@ -102,11 +102,12 @@ button:hover {
 
     input {
         width: 80%;
+        height: 25px;
     }
 
     button {
         width: 70%;
-        height: 8%;
+        height: 28px;
     }
 
     form {
